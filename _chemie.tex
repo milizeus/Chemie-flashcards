@@ -1,0 +1,57 @@
+%https://github.com/milizeus/MFP-flashcards.git
+%
+\documentclass[a5paper,12pt,ngerman,grid=front %
+%,toc % funktioniert nicht in Kombination mit print
+,print
+]{kartei}
+\usepackage{hyperref}
+\usepackage[german]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+%\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[version=3]{mhchem}
+\usepackage{gensymb}
+\usepackage{enumitem} 
+\let\oldce\ce
+\renewcommand*{\ce}[1]{\begingroup\color{red}\oldce{#1}\endgroup}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\title{Prüfungsfragen Chemie}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\setcardpagelayout
+
+
+
+
+
+	
+		\input{_content/01_LIMITIERENDE-REAKTANTEN-STOECHIOMETRIE.tex}
+		\input{_content/02_THERMOCHEMIE}
+%		\input{_content/03_PERIODISCHE-EIGENSCHAFTEN}
+%		\input{_content/04_GASE-FLUESSIGKEITEN-LOESUNGEN}
+%		\input{_content/05_CHEMISCHE-KINETIK}
+%		\input{_content/06_CHEMISCHES-GLEICHGEWICHT}
+%		\input{_content/07_SAEURE-BASE-GLEICHGEWICHTE}
+%		\input{_content/08_THERMODYNAMIK-II-ELEKTROCHEMIE}
+%		\input{_content/09_STOFFCHEMIE}
+%		\input{_content/10_ALLGEMEINE-FRAGEN}
+
+
+
+
+\end{document}			%% Dokument ENDE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
